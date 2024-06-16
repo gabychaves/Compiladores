@@ -1,4 +1,5 @@
 # Teoria da Computação e Compiladores
+Este repositório contém implementações de projetos relacionados à teoria da computação e compiladores
 
 ## Projetos
 - **GenericTuringMachine**: Implementação de uma Máquina de Turing para reconhecer sentenças de linguagens específicas utilizando uma fita.
