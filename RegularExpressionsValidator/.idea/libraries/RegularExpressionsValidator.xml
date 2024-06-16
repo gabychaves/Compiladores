@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RegularExpressionsValidator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RegularExpressionsValidator/RegularExpressionsValidator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RegularExpressionsValidator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RegularExpressionsValidator_jar</output-path>
+    <root id="archive" name="RegularExpressionsValidator.jar">
+      <element id="module-output" name="RegularExpressionsValidator" />
+    </root>
+  </artifact>
+</component>
