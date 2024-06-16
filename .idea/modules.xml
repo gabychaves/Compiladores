@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Compiladores.iml" filepath="$PROJECT_DIR$/.idea/Compiladores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GenericTuringMachine/GenericTuringMachine.iml" filepath="$PROJECT_DIR$/GenericTuringMachine/GenericTuringMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RegularExpressionsValidator/RegularExpressionsValidator.iml" filepath="$PROJECT_DIR$/RegularExpressionsValidator/RegularExpressionsValidator.iml" />
+    </modules>
+  </component>
+</project>
