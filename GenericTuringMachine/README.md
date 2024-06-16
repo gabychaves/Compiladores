@@ -1,3 +1,37 @@
+_ENG_
+### Turing Machine
+
+This code implements a Turing Machine to recognize sentences from specific languages using a tape. The transition function is read from a text file. The interface allows selecting the file to be read as well as the sentence to be recognized by the Turing Machine. At each step of execution, the step number, the symbol read, and the tape are displayed on the screen. At the end, the application indicates whether the sentence was accepted or rejected.
+
+### Definition of a Turing Machine
+
+A Turing Machine consists of three main parts:
+1. **Tape**: Used simultaneously as an input, output, and working memory device. The tape is finite to the left and infinite to the right, divided into cells that store symbols.
+2. **Control Unit**: Reflects the current state of the machine and has a read/write head that accesses one cell of the tape at a time, moving left or right.
+3. **Transition Function**: Defines the state of the machine and commands reads, writes, and the direction of the head's movement.
+
+The machine starts in the initial state and processes the input word cell by cell. Depending on the symbol read and the current state, the transition function determines the new state, the symbol to be written, and the direction of the head's movement. Processing continues until the machine reaches a final state, indicating that the word has been accepted, or until there are no more valid transitions, indicating that the word has been rejected.
+
+### Double Balancing
+In the example provided by "Formal Languages and Automata - P. B. Menezes," the Turing Machine processes words in the form L = { a^n b^n | n ≥ 0 }:
+1. Marks the first 'a' found with 'X' and moves to the right to find a 'b'.
+2. Marks the 'b' with 'Y' and moves back to the left until it finds an 'X'.
+3. Repeats the process until all 'a's and 'b's are marked.
+4. If the tape is in the correct format, the machine accepts the word by reaching the final state \(q4\). Otherwise, it rejects the word by not finding valid transitions.
+
+### Acceptance Rules
+For a sentence to be accepted, it must follow the form a^n b^n, where the number of 'a's equals the number of 'b's.
+
+#### Examples of Valid Sentences
+1. `ab`
+2. `aabb`
+3. `aaabbb`
+
+### References
+_Menezes, P. B. (2008). *Formal Languages and Automata*. 1st ed., Bookman. ISBN-10: 8577802663, ISBN-13: 978-8577802661_
+
+---
+_PT-BR_
 # Máquina de Turing
 
 Este código implementa uma Máquina de Turing para reconhecer sentenças de linguagens específicas com uma fita. A função de transição é lida a partir de um arquivo texto. A interface permite selecionar o arquivo a ser lido, assim como a sentença a ser reconhecida pela Máquina de Turing. A cada passo da execução, são exibidos na tela o número do passo, o símbolo lido e a fita. Ao final, a aplicação indica se a sentença foi aceita ou rejeitada.
@@ -27,4 +61,4 @@ Para que uma sentença seja aceita, ela deve seguir a forma  a^n b^n, onde o nú
 3. `aaabbb`
 
 ### Referências
-_Menezes, P. B. (2008). *Linguagens Formais e Autômatos*. 1ª ed., Bookman. ISBN-10: 8577802663, ISBN-13: 978-8577802661._
+_Menezes, P. B. (2008). *Linguagens Formais e Autômatos*. 1ª ed., Bookman. ISBN-10: 8577802663, ISBN-13: 978-8577802661_
